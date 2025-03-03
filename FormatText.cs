@@ -73,5 +73,15 @@ namespace Bai16_FormatText
         {
             lblLaptrinh.Font = new Font(lblLaptrinh.Font.Name, lblLaptrinh.Font.Size, lblLaptrinh.Font.Style ^ FontStyle.Bold);
         }
+
+        private void chkItalic_CheckedChanged(object sender, EventArgs e)
+        {
+            lblLaptrinh.Font = new Font(lblLaptrinh.Font.Name, lblLaptrinh.Font.Size, lblLaptrinh.Font.Style ^ FontStyle.Italic);
+        }
+
+        private void chkGachchan_CheckedChanged(object sender, EventArgs e)
+        {
+            lblLaptrinh.Font = new Font(lblLaptrinh.Font.Name, lblLaptrinh.Font.Size, lblLaptrinh.Font.Style ^ FontStyle.Underline);
+        }
     }
 }

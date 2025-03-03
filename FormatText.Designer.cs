@@ -156,6 +156,7 @@
             this.chkItalic.TabIndex = 1;
             this.chkItalic.Text = "Nghiêng Italic";
             this.chkItalic.UseVisualStyleBackColor = true;
+            this.chkItalic.CheckedChanged += new System.EventHandler(this.chkItalic_CheckedChanged);
             // 
             // chkGachchan
             // 
@@ -166,6 +167,7 @@
             this.chkGachchan.TabIndex = 2;
             this.chkGachchan.Text = "Gạch chân";
             this.chkGachchan.UseVisualStyleBackColor = true;
+            this.chkGachchan.CheckedChanged += new System.EventHandler(this.chkGachchan_CheckedChanged);
             // 
             // label2
             // 
