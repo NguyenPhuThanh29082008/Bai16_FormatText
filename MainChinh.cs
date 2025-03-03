@@ -34,5 +34,13 @@ namespace Bai16_FormatText
         {
 
         }
+
+        private void MainChinh_Load(object sender, EventArgs e)
+        {
+            string ten = "Nguyễn Phú Thành";
+            lblInfo.Text = "Họ và tên thí sinh: " + ten + Environment.NewLine;
+            lblInfo.Text += "Ngày tháng viết chương trình: " + System.DateTime.Now;
+
+        }
     }
 }
