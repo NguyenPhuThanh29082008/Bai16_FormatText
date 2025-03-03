@@ -21,5 +21,17 @@ namespace Bai16_FormatText
         {
             this.Close();
         }
+
+        private void formatTextToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormatText formatText = new FormatText();
+            formatText.MdiParent = this;
+            formatText.ShowDialog();
+        }
+
+        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
